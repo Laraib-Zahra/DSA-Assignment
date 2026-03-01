@@ -3,10 +3,13 @@ class Node
     int data; 
     Node prev;
      Node next;
+     //constructor
       public Node(int data) 
-      { this.data = data;
+      { 
+        this.data = data;
          this.prev = null; 
-         this.next = null; }
+         this.next = null;
+         }
          }
  class DoublyLinkedList {
     Node head;
@@ -85,4 +88,3 @@ public class Main {
         dll.displayForward();
     }
 }
-        
